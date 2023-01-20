@@ -1,0 +1,204 @@
+[
+    {
+        "id": 1,
+        "name": "moroccainoil all in one leave-in conditioner",
+        "price": 3000,
+        "image": "https://www.sephora.com/productimages/sku/s2395069-main-zoom.jpg?imwidth=612",
+        "featured":true,
+        "url":"https://www.sephora.com/product/moroccanoil-leave-in-conditioner-P462387?"
+
+    },
+    {
+        "id": 2,
+        "name": "nars blush \"orgasm x\"",
+        "price": 3200,
+        "image": "https://www.narscosmetics.com/dw/image/v2/BBSK_PRD/on/demandware.static/-/Sites-itemmaster_NARS/default/dw175ce6a1/hi-res/0607845040774.jpg?sw=800&sh=800&sm=fit",
+        "url":"https://www.narscosmetics.com/USA/orgasm-x-blush/0607845040774.html?"
+    },
+    {
+        "id": 3,
+        "name": "\"replica\" coffee break perfume",
+        "price": 7600,
+        "image": "https://www.sephora.com/productimages/sku/s2530681-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/maison-margiela-replica-coffee-break-eau-de-toilette-P461184?"
+
+    },
+    {
+        "id": 4,
+        "name": "clearly clean makeup removing cleansing balm",
+        "price": 3600,
+        "image": "https://www.sephora.com/productimages/sku/s2501229-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/farmacy-clearly-clean-cleansing-balm-P477157?"
+    },
+    {
+        "id": 5,
+        "name": "moroccanoil treatment hair oil",
+        "price": 3400,
+        "image": "https://www.sephora.com/productimages/sku/s2605913-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/moroccanoil-treatment-P412090?"
+
+    },
+   
+    {
+        "id": 6,
+        "name": "laneige lip sleeping mask + vit. c",
+        "price": 2400,
+        "image": "https://www.sephora.com/productimages/sku/s1966258-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/lip-sleeping-mask-P420652?"
+    },
+    {
+        "id": 7,
+        "name": "lawless seal the deal talc-free setting powder",
+        "price": 3600,
+        "image": "https://www.sephora.com/productimages/sku/s2107316-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/seal-the-deal-talc-free-loose-setting-powder-P435713?"
+    },
+    {
+        "id": 8,
+        "name": "nars liquid blush \"orgasm\"",
+        "price": 3000,
+        "image": "https://www.sephora.com/productimages/sku/s1943331-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/liquid-blush-P419506?"
+    },
+    {
+        "id": 9,
+        "name": "cookie golden pearl powder highlighter",
+        "price": 3500,
+        "image": "https://media.ulta.com/i/ulta/2595642?w=99&h=99&fmt=webp",
+        "url":"https://www.ulta.com/p/cookie-golden-pearl-powder-highlighter-pimprod2008305?"
+    },
+    {
+        "id": 10,
+        "name": "matte cream bronzer stick",
+        "price": 2200,
+        "image": "https://www.sephora.com/productimages/sku/s2257269-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/matte-bronzer-P404797?"
+    },
+    {
+        "id": 11,
+        "name": "fav-4 curls and kisses cream",
+        "price": 1800,
+        "image": "https://cdn.shopify.com/s/files/1/0293/5477/products/Curls-and-Kisses-Front-Web.jpg?v=1662059212",
+        "url":"https://fave4.com/products/curls-and-kisses-curl-cream"
+    },
+    {
+        "id": 12,
+        "name": "fav-4 up for air styling cream",
+        "price": 1800,
+        "image": "https://cdn.shopify.com/s/files/1/0293/5477/products/Up-for-air-Front-Web_compact.jpg?v=1655845619",
+        "url":"https://fave4.com/products/fave4-up-for-air-styling-cream?"
+    },
+    {
+        "id": 13,
+        "name": "fav-4 smooth for sure blowout cream",
+        "price": 20000,
+        "image": "https://cdn.shopify.com/s/files/1/0293/5477/products/Smooth-For-Sure-Front-Web_compact.jpg?v=1655845625",
+        "url":"https://fave4.com/products/smooth-for-sure-smoothing-cream?"
+    },
+    {
+        "id": 14,
+        "name": "\"replica\" by the fireplace perfume",
+        "price": 7600,
+        "image": "https://www.sephora.com/productimages/sku/s2415552-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/replica-by-fireplace-P404758?"
+    },
+    {
+        "id": 15,
+        "name": "\"DreamGenius\" makeup organizer",
+        "price": 33.99,
+        "image": "https://m.media-amazon.com/images/I/81Sp7vuAJGL._AC_SX466_.jpg",
+        "url":"https://www.amazon.com/DreamGenius-Organizer-Acrylic-Cosmetic-Storage/dp/B07DZGHM9N/ref=sr_1_1_sspa?"
+    },
+    {
+        "id": 16,
+        "name": "tom ford bitter peach perfume",
+        "price": 24000,
+        "image": "https://www.sephora.com/productimages/sku/s2474054-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/tom-ford-bitter-peach-eau-de-parfum-P464304?"
+    },
+    {
+        "id": 17,
+        "name": "tom ford rose prick perfume",
+        "price": 24000,
+        "image": "https://www.sephora.com/productimages/sku/s2408326-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/tom-ford-rose-prick-eau-de-parfum-P455598?"
+    },
+    {
+        "id": 18,
+        "name": "tom ford ébène fumé perfume",
+        "price": 28500,
+        "image": "https://www.sephora.com/productimages/sku/s2474021-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/tom-ford-ebene-fume-eau-de-parfum-P478734?"
+    },
+    {
+        "id": 19,
+        "name": "tom ford soleil neige shimmering body oil",
+        "price": 10000,
+        "image": "https://www.sephora.com/productimages/sku/s2284958-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/soleil-neige-shimmering-body-oil-P450195?"
+    },
+    {
+        "id": 20,
+        "name": "tom ford lost cherry perfume",
+        "price": 24000,
+        "image": "https://www.sephora.com/productimages/sku/s2369213-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/lost-cherry-P436489?"
+    },
+    {
+        "id": 21,
+        "name": "tulobi makeup puffs",
+        "price": 999,
+        "image": "https://m.media-amazon.com/images/I/61DA8Kx4DiL._SX466_.jpg",
+        "url":"https://www.amazon.com/TULOBI-Triangle-Dual-ended-Brushes-Contouring/dp/B0B6PCKVZ8?"
+    },
+    {
+        "id": 22,
+        "name": "slip silk pillowcase",
+        "price": 8900,
+        "image": "https://www.sephora.com/productimages/sku/s1771260-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/silk-pillowcase-standard-queen-P402944?"
+    },
+    {
+        "id": 23,
+        "name": "ilia limitless lash mascara",
+        "price": 2800,
+        "image": "https://www.sephora.com/productimages/sku/s2335198-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/limitless-lash-mascara-P431750?"
+    },
+    {
+        "id": 24,
+        "name": "skin pharm anti-aging youth serum",
+        "price": 11500,
+        "image": "https://cdn.shopify.com/s/files/1/0563/2747/1272/products/skinpharm-product-youthserum_5000x.png?v=1656980551",
+        "url":"https://skinpharm.com/collections/serums/products/youth-serum"
+    },
+    {
+        "id": 25,
+        "name": "olaplex no.4 bond maintenance shampoo",
+        "price": 3000,
+        "image": "https://www.sephora.com/productimages/sku/s2118867-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/no-4-bond-maintenance-shampoo-P433172?"
+    },
+    {
+        "id": 26,
+        "name": "olaplex no.5 bond maintenance conditioner",
+        "price": 3000,
+        "image": "https://www.sephora.com/productimages/sku/s2118875-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/no-5-bond-maintenance-conditioner-P433173?"
+    },
+    {
+        "id": 27,
+        "name": "skin pharm clay time charcoal mask",
+        "price": 7500,
+        "image": "https://cdn.shopify.com/s/files/1/0563/2747/1272/products/skinpharm-product-claytime-new_5000x.png?v=1652328975",
+        "url":"https://skinpharm.com/products/clay-time"
+    },
+    {
+        "id": 28,
+        "name": "supergoop glowscreen sunscreen",
+        "price": 3600,
+        "image": "https://www.sephora.com/productimages/sku/s2535656-main-zoom.jpg?imwidth=612",
+        "url":"https://www.sephora.com/product/supergoop-glowscreen-sunscreen-spf-40-P456218?"
+    }
+    
+]
