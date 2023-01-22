@@ -5,34 +5,36 @@ import { Information } from "../components"
 
 const MainPage = () => {
     return (
-        <main>
-            <Background></Background>
-            <Wrapper>  
+        <Wrapper>
+            <div className="about">
                 <Information/>
+            </div>
+            <div className="featured-container">
                 <FeaturedItems/>
-            </Wrapper>
-        </main>
+            </div>
+            <div className="background"></div>
+        </Wrapper>
   )
 }
 
 const Wrapper = styled.div`
 position: relative;
-margin-top: 5vh;
-height: 76vh;
-width: 97VW;
-top: 15vh;
+.featured-container{
+position: absolute;
+}
+
+.background{
+    position: fixed;
+    background-image: url(${Pic});
+    height: 103vh;
+    width: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
 `
-const Background = styled.div`
-border:3px solid red;
-height: 100%;
-width: 100%;
-margin-left: -.5vw;
-position: fixed;
-background-image: url(${Pic});
-background-repeat: no-repeat;
-background-size: 100%;
-filter: blur(3px);
-`
+
 
 
 export default MainPage

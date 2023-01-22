@@ -89,7 +89,9 @@ z-index: 1;
 .title:hover + .filters{
     left: 0vw;
 }
-
+.filters:hover{
+    left: 0vw;
+}
 @media screen and (min-width:280px){
 .title{
     font-size: 2vh;

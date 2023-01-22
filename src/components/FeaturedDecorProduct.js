@@ -3,71 +3,210 @@ import styled from 'styled-components'
 import { formatPrice } from "../utils/helpers"
 
 const FeaturedDecorProduct = ({name, price, image,url}) => {
-    return (
-     <main>
-        <Background></Background>
-        <Wrapper>    
-              <h1>{name}</h1>
-              <h1>{formatPrice(price)}</h1>
+     return (
+      <Wrapper> 
+        <div className='f-container'>
+              <div>{name}</div>
+              <div>{formatPrice(price)}</div>
               <img src={image} />
               <a href={url}><span className="span">CLICK TO BUY</span></a>
+        </div>
         </Wrapper>
-      </main>
   )
 }
 
 const Wrapper = styled.div`
+border: 1vw solid black;
 position: relative;
+margin-top: 5vh;
+margin-left: 20vw;
+width: 58vw;
+height: 25vh;
+.f-container{
 text-align: center;
-height: 19.5vh;
-width: 11.3vw;
-top: -20vh;
-border: 2px solid black;
-transition: .5s;
+text-transform: uppercase;
+line-height: 3vh;
+
+img{
+      position: absolute;
+      max-height: 18vh;
+      max-width: 18vw;
+      bottom: 5vh;
+      margin-left: -9vw;
+}
 a{
-  display: block;
-  text-decoration: none;
-  color:black;
-  position: relative;
-  top: -32vh;
-  padding-top: 21.5vh;
-  width: 11vw;
+        box-shadow: 0 0 10px black;
+    position: absolute;
+    margin-top: -6.5vh;
+    height:26vh;
+    width: 60vw;
+    margin-left: -30vw;
+    text-decoration: none;
+    
+    span{
+      background: white;
+      box-shadow: 0 0 10px black;
+      position: absolute;
+      color: black;
+      border: 1vw solid black;
+      margin-top: 21vh;
+      margin-left: -15vw;
+    }
+  }
 }
-.span{
-  display: none;
-  border: 3px solid black;
-  padding:.1vw;
-  background: white;
-  box-shadow: 0 0 50px white;
-  position: relative;
-  left:.15vw;
+@media screen and (min-width: 280px){
+  border: .7vw solid black;
+  .f-container{
+    font-size: 2vh;
+    img{
+      margin-left: -8vw;
+      bottom: 6vh;
+    }
+    a{
+      margin-top:-6vh;
+      margin-left: -29vw;
+      width: 58vw;
+      height: 25vh;
+
+      span{
+        margin-left: -17vw;
+        padding: .1vw;
+        margin-top: 20.5vh;
+        border: 1vw solid black;
+      }
+    }
+  }
 }
-:hover{
-  transform: scale(1.2);
-  .span{
-    display: block;
+@media screen and (min-width: 412px){
+  border: .7vw solid black;
+  .f-container{
+    font-size: 1.7vh;
+    img{
+      margin-left: -9.5vw;
+    }
+    a{
+      margin-top:-6vh;
+      margin-left: -29vw;
+      width: 58vw;
+
+      span{
+        margin-left: -13vw;
+        padding: .1vw;
+        margin-top: 21vh;
+        border: .5vw solid black;
+      }
+    }
+  }
+}
+@media screen and (min-width: 540px){
+  border: .7vw solid black;
+  .f-container{
+    font-size: 1.7vh;
+    img{
+      margin-left: -9.5vw;
+    }
+    a{
+      margin-top:-6.5vh;
+      margin-left: -29vw;
+      width: 58vw;
+
+      span{
+        margin-left: -9vw;
+        padding: .1vw;
+        margin-top: 21.5vh;
+        border: .5vw solid black;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px){
+  border: .7vw solid black;
+  .f-container{
+    font-size: 1.7vh;
+    img{
+      margin-left: -9.5vw;
+    }
+    a{
+      margin-top:-6.5vh;
+      margin-left: -29vw;
+      width: 58vw;
+
+      span{
+        margin-left: -9vw;
+        padding: .1vw;
+        margin-top: 21.5vh;
+        border: .5vw solid black;
+      }
+    }
+  }
+}
+@media screen and (min-width: 820px){
+  border: .7vw solid black;
+  .f-container{
+    font-size: 1.7vh;
+    a{
+      margin-top:-6.5vh;
+      margin-left: -29vw;
+      width: 58vw;
+
+      span{
+        margin-left: -9vw;
+        padding: .1vw;
+        margin-top: 21.5vh;
+        border: .5vw solid black;
+      }
+    }
+  }
+}
+@media screen and (min-width: 912px){
+  border: .7vw solid black;
+  .f-container{
+    font-size: 2vh;
+    img{
+      margin-left: -8.5vw;
+    }
+    a{
+      margin-top:-6vh;
+      height: 25vh;
+      span{
+        margin-left: -10vw;
+        padding: .1vw;
+        margin-top: 21vh;
+        border: .5vw solid black;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1024px){
+  border: .3vw solid black;
+  width: 15vw;
+  height: 40vh;
+  margin-top: 106vh;
+  .f-container{
+    font-size: 3vh;
+    img{
+      max-height: 19vh;
+    max-width: 14vw;
+      margin-left: -4.5vw;
+      bottom: 6vh;
+    }
+    a{
+      width: 15vw;
+      height: 40vh;
+      margin-top:-9vh;
+      margin-left: -7.5vw;
+      span{
+        margin-left: -6.5vw;
+        padding: .1vw;
+        bottom:1vh;
+        border: .3vw solid black;
+      }
+    }
   }
 }
 
-img{
-  position: relative;
-    max-width: 20vw;
-    max-height: 20vh;
-    top: -10vh;
-}
-
-
 `
-const Background = styled.div`
-background: white;
-height: 20vh;
-width: 20vh;
-position: relative;
-box-shadow: 0 0 30px white;
-filter: blur(2px);
-transition: .5s;
 
-`
 
 
 export default FeaturedDecorProduct

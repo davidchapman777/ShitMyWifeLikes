@@ -5,60 +5,217 @@ import styled from "styled-components"
 
 const FeaturedItems = () => {
   return (
-    <Main>
-      <h2 className="f">My wife's favorites</h2>
     <Wrapper>
+      <div className="border"></div>
+      <div className="background3"></div>
+      <div className="f">My wife's favorites</div>
+      <div className="ff-container">
       <FeaturedBeautyProducts/>
       <FeaturedDecorProducts />
       <FeaturedFashionProducts />
+      </div>
     </Wrapper>
-    </Main>
   )
 }
 const Wrapper = styled.div`
-display: grid;
-grid-template-columns: auto auto auto;
-border: .1vw solid black;
-height: 25vh;
-width: 70vw;
-top: -8vh;
-padding-left: 10vw;
-padding-top: 5vh;
-position: relative;
-transition: .5s;
-:hover{
-  box-shadow: 0 0 50px white;
-  transform: scale(1.02);
+margin-bottom: 10vh;
+.background3{
+  background: white;
+  opacity: .6;
+  filter: blur(10px);
+  position: absolute;
+  height: 96vh;
+  margin-top: -6vh;
+  width: 70.2vw;
+  margin-left: 15vw;
+  z-index: 0;
 }
-`
-const Main = styled.main`
-position: relative;
-top: 20vh;
-width: 80vw;
-left: 8vw;
-height: 30vh;
-text-align: center;
 .f{
-  border:.1vw solid black;
-  width: 15vw;
+  background: white;
   text-transform: uppercase;
-  text-align: center;
-  box-shadow: 0 0 30px white;
-  position: relative;
-  left: 31.1vw;
-  padding: .5vw;
-  top: -8vh;
-  transition: .5s;
+  margin-left: 27vw;
+  margin-top: -7vh;
+  position: absolute;
+  border: 1vw solid black;
+  box-shadow: 0 0 10px black;
+}
+.border{
+  position: absolute;
+  border: 1vw solid black;
+  height: 100vh;
+  width: 68vw;
+  left: 15vw;
+  margin-top: -10vh;
   z-index: 1;
 }
-:hover{
-.f{
-  background: black;
-  transform: scale(1.3);
-  box-shadow: 0 0 30px white;
-  color:white;
-  border: .1vw solid white;
+.ff-container{
+  display: block;
 }
+@media screen and (min-width: 280px){
+  .background3{
+height: 100vh;
+  margin-top: -10vh;
+  }
+  .f{
+    font-size: 4.5vw;
+    margin-left: 25vw;
+    border: 1vw solid black;
+  }
+  .border{
+    border: 1vw solid black;
+  }
 }
+@media screen and (min-width: 360px){
+  .background3{
+height: 100vh;
+  margin-top: -10vh;
+  }
+  .f{
+    border: .7vw solid black;
+  }
+  .border{
+    border: .7vw solid black;
+  }
+}
+@media screen and (min-width: 375px){
+  .background3{
+
+  }
+  .f{
+    border: .7vw solid black;
+  }
+  .border{
+    border: .7vw solid black;
+  }
+}
+@media screen and (min-width: 390px){
+  .background3{
+height: 100vh;
+  margin-top: -10vh;
+  }
+  .f{
+    border: .7vw solid black;
+  }
+  .border{
+    border: .7vw solid black;
+  }
+}
+@media screen and (min-width: 412px){
+  .background3{
+
+  }
+  .f{
+    border: .7vw solid black;
+  }
+  .border{
+    border: .7vw solid black;
+  }
+}
+@media screen and (min-width: 414px){
+  .background3{
+  margin-top: -10vh;
+    height: 100vh;
+
+
+  }
+  .f{
+    border: .7vw solid black;
+  }
+  .border{
+    border: .7vw solid black;
+  }
+}
+@media screen and (min-width: 540px){
+  .background3{
+    margin-top: -10vh;
+    height: 100vh;
+
+
+  }
+  .f{
+    border: .5vw solid black;
+    font-size: 2vh;
+    margin-left: 35vw;
+  }
+  .border{
+    border: .5vw solid black;
+  }
+}
+@media screen and (min-width: 768px){
+  .background3{
+    margin-top: -10vh;
+    height: 100vh;
+
+
+  }
+  .f{
+    border: .5vw solid black;
+    font-size: 2vh;
+    margin-left: 35vw;
+  }
+  .border{
+    border: .5vw solid black;
+  }
+}
+@media screen and (min-width: 820px){
+  .background3{
+    margin-top: -10vh;
+    height: 100vh;
+
+
+  }
+  .f{
+    border: .5vw solid black;
+    font-size: 2vh;
+    margin-left: 35vw;
+  }
+  .border{
+    border: .5vw solid black;
+  }
+}
+@media screen and (min-width: 912px){
+  .background3{
+    margin-top: -10vh;
+    height: 100vh;
+
+
+  }
+  .f{
+    border: .5vw solid black;
+    font-size: 2vh;
+    margin-left: 33vw;
+  }
+  .border{
+    border: .5vw solid black;
+  }
+}
+@media screen and (min-width: 1024px){
+  margin-left: 4vw;
+  .background3{
+    margin-top: 90vh;
+    margin-left: 11.5vw;
+    height: 60vh;
+  }
+  .f{
+    border: .3vw solid black;
+    font-size: 2.5vh;
+    margin-left: 34.5vw;
+    margin-top: 91vh;
+    padding: 1vw;
+    width: 20vw;
+    text-align: center;
+  }
+  .border{
+    margin-top: 90vh;
+    height: 60vh;
+    margin-left: 1vw;
+    border: .3vw solid black;
+  }
+  .ff-container{
+    display: grid;
+    grid-template-columns: 18vw 18vw 1vw;
+  }
+}
+
 `
 export default FeaturedItems

@@ -25,7 +25,7 @@ position: fixed;
 border:.2vw solid black;
 height: 22vh;
 width: 99.5vw;
-z-index: 1;
+z-index: 2;
 
 .link{
   display: block;
@@ -168,7 +168,7 @@ z-index: 1;
 }
 @media screen and (min-width:1024px){
   height: 22vh;
-  width: 100vw;
+  width: 99.2vw;
   border: .4vw solid black;
   .title{
     font-size: 4vh;
