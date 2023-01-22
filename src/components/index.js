@@ -8,7 +8,6 @@ import FeaturedDecorProducts from "./FeaturedDecorProducts";
 import FeaturedElectronics from "./FeaturedElectronics";
 import FeaturedFashionProducts from "./FeaturedFashionProducts";
 import Information from "./Information";
-import Loading from "./Loading";
 import Navbar from "./Navbar";
 import PageHero from "./PageHero";
 import SortBeauty from "./SortBeauty";
@@ -29,7 +28,6 @@ export {
     DecorProduct,
     PageHero,
     Error,
-    Loading,
     FeaturedBeautyProducts,
     BeautyProduct,
     Navbar

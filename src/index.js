@@ -9,7 +9,6 @@ import { FilterProvider } from './context/BeautyFilterContext';
 import { DecorFilterProvider } from './context/DecorFilterContext';
 import { ElectronicFilterProvider } from './context/ElectronicsFilterContext';
 import { FashionFilterProvider } from './context/FashionFilterContext';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

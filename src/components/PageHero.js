@@ -4,71 +4,119 @@ import styled from "styled-components"
 
 const PageHero = ({title}) => {
     return (
-        <main>
-            <Background></Background>
-            <Wrapper> 
+        <Wrapper>
+            <div> 
                 <div> 
-                    <StyledLink to='/'><span className="go"></span> MAIN-PAGE <span className="title"> / {title}</span></StyledLink>    
+                    <Link to='/' className="link"><span className="go"></span> MAIN-PAGE <span className="title"> / {title}</span></Link>    
                 </div>
-            </Wrapper>
-        </main>
+            </div>
+        </Wrapper>
   )
 }
-
 const Wrapper = styled.div`
+border: 1vw solid white;
+background: black;
+box-shadow: 0 0 10px black;
+width: 40vw;
 position: fixed;
-z-index: 2;
-width: 20vw;
-height: 5%;
-margin-top: 85vh;
-left: 40.5vw;
-
-.go{
-    display: none;
-}
-
-`
-    
-const StyledLink = styled(Link)`
-text-decoration: none;
-display: block;
-border: .15vw solid black;
-font-size: 2vh;
+top: 92vh;
+left: 28vw;
+padding: 2vw;
+z-index: 1;
 text-align: center;
-color: black;
-width:19.7vw;
-height:1.5vh;
-padding-top: 1vh;
-padding-bottom: 2vh;
-transition: .5s;
 
-:hover{
-    border:.15vw solid white;
-    box-shadow: 0 0 30px white;
-    background: black;
-    color: white;
-    transform: scale(1.5);
-
-    .title{
-        display: none;
-    }
-    .go{
-        display: inline-block;
-    }
+.link{
+    text-decoration: none;
+    color:white;
+    position: relative;
+    
 }
 
-`
+@media screen and (min-width:280px){
+top: 93vh;
+font-size:1.8vh;
+width: 46vw;
+left: 25vw;
+}
+@media screen and (min-width:360px){
+top: 93vh;
+width: 41vw;
+left: 27vw;
+}
+@media screen and (min-width:390px){
+top: 93vh;
+.link{
+    font-size:2vh;
+    box-shadow: 0 0 3vw black;
+}
+}
+@media screen and (min-width:412px){
+top: 93vh;
 
-const Background = styled.div`
-position:fixed;
-top: 89vh;
-height: 6.9vh;
-width: 21vw;
-z-index: 2;
-background: white;
-left: 40vw;
-opacity:.9;
-filter: blur(10px);
+.link{
+    font-size:1.7vh;
+    box-shadow: 0 0 3vw black;
+}
+}
+@media screen and (min-width:414px){
+top: 93vh;
+.link{
+    font-size:2vh;
+    box-shadow: 0 0 3vw black;
+}
+}
+@media screen and (min-width:540px){
+top: 92vh;
+.link{
+    font-size:2.2vh;
+    box-shadow: 0 0 3vw black;
+}
+}
+@media screen and (min-width:768px){
+top: 92vh;
+.link{
+    font-size:2.2vh;
+    box-shadow: 0 0 3vw black;
+}
+}
+@media screen and (min-width:820px){
+top: 92vh;
+.link{
+    font-size:2.2vh;
+    box-shadow: 0 0 3vw black;
+}
+}
+@media screen and (min-width:912px){
+top: 92vh;
+.link{
+    font-size:2.2vh;
+    box-shadow: 0 0 3vw black;
+}
+}
+@media screen and (min-width:1024px){
+top: 87vh;
+width: 30vw;
+height: .5vh;
+left: 34.5vw;
+border: .3vw solid white;
+.link{
+    font-size:3vh;
+    box-shadow: 0 0 3vw black;
+    bottom: 1vh;
+}
+}
+@media screen and (min-width:1280px){
+top: 87vh;
+width: 30vw;
+height: .5vh;
+left: 34.5vw;
+border: .3vw solid white;
+.link{
+    font-size:3vh;
+    box-shadow: 0 0 3vw black;
+    bottom: 1vh;
+}
+}
 `
 
 export default PageHero

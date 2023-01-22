@@ -1,14 +1,13 @@
 import { MainPage, Beauty, Home, Electronics, Luxury, Error } from "./pages";
 import { Navbar,SideBar } from "./components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import styled from "styled-components";
 
 function App() {
   return (
     <main>
       <BrowserRouter>
         <Navbar />
-        {/* <SideBar/> */}
         <Routes>
           <Route path="/" element={ <MainPage/>} />
           <Route path="/beauty" element={ <Beauty/>} />
@@ -21,5 +20,6 @@ function App() {
     </main>
   );
 }
+
 
 export default App;

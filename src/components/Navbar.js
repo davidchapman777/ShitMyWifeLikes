@@ -4,70 +4,197 @@ import { Link } from "react-router-dom"
 
 const Navbar = () => {
     return (
-      <main>
-        <Title>sh!t my wife likes
-          <span></span>
-        </Title>
-          <Wrapper>
-            <StyledLink to='/'>MAIN-PAGE</StyledLink>
-            <StyledLink to='/beauty'>BEAUTY</StyledLink>
-            <StyledLink to='/home'>HOME</StyledLink>
-            <StyledLink to='/electronics'>ELECTRONICS</StyledLink>
-            <StyledLink to='/luxury'>LUXURY</StyledLink>
-          </Wrapper>
-        </main>
+      <Wrapper>
+        <div className="title">sh!t my wife likes
+        </div>
+        <div className="links-container">
+          <div className="links">
+            <Link to='/' className="link">MAIN-PAGE</Link>
+            <Link to='/beauty' className="link">BEAUTY</Link>
+            <Link to='/home' className="link">HOME</Link>
+            <Link to='/electronics' className="link">ELECTRONICS</Link>
+            <Link to='/luxury' className="link">LUXURY</Link>
+          </div>
+        </div>
+        </Wrapper>
   )
+}
+const Wrapper = styled.div`
+background-color: aqua;
+position: fixed;
+border:.2vw solid black;
+height: 22vh;
+width: 99.5vw;
+z-index: 1;
+
+.link{
+  display: block;
+  position: relative;
+  border: .1vw solid black;
+  width: 50vw;
+  left: 45vw;
+  height: 2.55vh;
+  top: .9vh;
+  padding: 1vw;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.title{
+  border: 1vw solid white;
+  color: white;
+  position: fixed;
+  width: 35vw;
+  height: 17.5vh;
+  top: 1vh;
+  left: 2vw;
+  text-transform: uppercase;
+  font-size: 4vh;
+  padding:1.5vw;
+  background: black;
+  line-height: 6vh;
+  box-shadow: 0 0 30px black;
 }
 
 
 
-const Wrapper = styled.div`
-position: absolute;
-margin-left: -.5vw;
-margin-top: -5vh;
-border:5px solid black;
-width: 100%;
-height: 21vh;
-position: fixed;
-z-index: 1;
-text-align: center;
-background: #1fe4ee;
+@media screen and (min-width:280px){
+  .title{
+    font-size: 3.6vh;
+  }
+  .link{
+    height: 2.71vh;
+    padding-top: 1vw;
+  }
+}
+@media screen and (min-width:360px){
+  .title{
+    font-size: 4vh;
+  }
+  .link{
+    height: 2.71vh;
+    padding-top: 1vw;
+  }
+}
+@media screen and (min-width:390px){
+  .title{
+    font-size: 3vh;
+  }
+  .link{
+    height: 2.3vh;
+    padding-top: 2vw;
+  }
+}
+@media screen and (min-width:412px){
+  .title{
+    font-size: 3vh;
+  }
+  .link{
+    height: 2.21vh;
+    padding-top: 2vw;
+    border: .4vw solid black;
+  }
+}
+@media screen and (min-width:414px){
+  .title{
+    font-size: 3vh;
+  }
+  .link{
+      height: 2.17vh;
+      padding-top: 2vw;
 
+  }
+}
+@media screen and (min-width:540px){
+  .title{
+    font-size: 5vh;
+    height: 16.6vh;
+    width: 29.5vw;
+    
+  }
+  .link{
+      font-size: 3vw;
+      letter-spacing: 1vw;
+      height:2.1vh;
+      padding-top: 1vw;
+      border: .3vw solid black;
+  }
+}
+@media screen and (min-width:768px){
+  .title{
+    font-size: 5vh;
+    height: 16.6vh;
+    width: 29.5vw;
+    
+  }
+  .link{
+      font-size: 3vw;
+      letter-spacing: 1vw;
+      height:2.1vh;
+      padding-top: 1vw;
+      border: .3vw solid black;
+  }
+}
+@media screen and (min-width:820px){
+  .title{
+    font-size: 5vh;
+    height: 16.6vh;
+    width: 29.5vw;
+    
+  }
+  .link{
+      font-size: 3vw;
+      letter-spacing: 1vw;
+      height:2.2vh;
+      padding-top: 1vw;
+      border: .3vw solid black;
+  }
+}
+@media screen and (min-width:912px){
+  .title{
+    font-size: 4vh;
+    height: 16.6vh;
+    width: 29.5vw;
+    
+  }
+  .link{
+      font-size: 3vw;
+      letter-spacing: 1vw;
+      height:2.2vh;
+      padding-top: 1vw;
+      border: .3vw solid black;
+  }
+}
+@media screen and (min-width:1024px){
+  height: 22vh;
+  width: 100vw;
+  border: .4vw solid black;
+  .title{
+    font-size: 4vh;
+    height: 15vh;
+    width: 9vw;
+    border:.3vw solid white;
+    padding-bottom: 1.5vw;
+    padding-top: 1vw;
+    line-height: 4vh;
+    top: 1vw;
+  }
+  .link{
+      display: inline-block;
+      left: 18vw;
+      font-size: 1.5vw;
+      letter-spacing: 0vw;
+      height:3vh;
+      width: 10vw;
+      padding-top: .9vw;
+      border: .3vw solid black;
+      margin: 1.5vw;
+      top: 5vh;
+  }
+}
 
 `
-const StyledLink=styled(Link)`
-    text-decoration: none;
-    color: black;
-    display:inline-block;
-    margin-top:7vh;
-    margin-left: 4vw;
-    margin-right: 4vw;
-    font-size:2vh;
-    border: 3px solid black;
-    padding:1vw;
-    :hover{
-        background: black;
-        color: white;
-        border:3px solid white;
-        box-shadow: 0 0 10px black;
-    }
-`
-const Title = styled.div`
-position: fixed;
-top: 1vh;
-left: 1vw;
-padding: 1vw;
-width: 7vw;
-background: black;
-color: white;
 
-height: 15.5vh;
-z-index: 2;
-font-size: 3.6vh;
-text-transform: uppercase;
-border: .2vw solid white;
-box-shadow: 0 0 30px black;
-
-`
 
 export default Navbar

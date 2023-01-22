@@ -11,49 +11,46 @@ const Home = () => {
     
 
    return (
-        <main>
-            <Background></Background>
+        <Wrapper>
+            <div className="background"></div>
             <SortDecor/>
             <PageHero title='Home'/>
-            <Wrapper>  
                 <div className="products-container">
                     {filtered_products.map((p) => {
                         return <DecorProduct key={p.id} {...p} />
                     })}
                 </div>
-            </Wrapper>
-        </main>
+        
+        </Wrapper>
   )
 }
-
 const Wrapper = styled.div`
-
 position: relative;
-margin-left:2vw;
-margin-top: 5vh;
-height: 100%;
-width: 105VW;
-top: 1vh;
 
-
+.background{
+    position: fixed;
+    background-image: url(${Pic});
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur();
+}
 .products-container{
     display: grid;
-    grid-template-columns: 30vw 30vw 20vw;
-    
-    
+    grid-template-columns: 50vw 1vw;
+    position: relative;
+    top: -10vh;
 }
-`
 
-const Background = styled.div`
-border:3px solid red;
-height: 100%;
-width: 100%;
-margin-left: -.5vw;
-position: fixed;
-background-image: url(${Pic});
-background-repeat: no-repeat;
-background-size: 100%;
-filter: blur(3px);
+
+@media screen and (min-width:1024px){
+    .products-container{
+        grid-template-columns: 25vw 25vw 1vw;
+        left: 5vw;
+        top: -26vh;
+    }
+}
 `
 
 
