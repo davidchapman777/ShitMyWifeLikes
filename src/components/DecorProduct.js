@@ -6,13 +6,13 @@ import { formatPrice } from "../utils/helpers"
 const DecorProduct = ({ name, price, image, url }) => {
    return (
     <Wrapper>   
-      <div className="bcg"></div>
       <div className="product">
         <div>{name}</div>
         <div>{formatPrice(price)}</div>
         <img src={image} />
         <a href={url}><span>CLICK TO BUY</span></a>
       </div>
+      <div className="bcg"></div>
     </Wrapper>
   )
 }

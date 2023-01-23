@@ -39,6 +39,7 @@ z-index: 0;
     max-height: 20vh;
   }
   a{
+    border: 1vw solid black;
     display: block;
     text-decoration: none;
     height: 35.6vh;
@@ -418,7 +419,6 @@ z-index: 0;
       width: 19vw;
       top:-.1vh;
       height: 39vh;
-      border: .3vw solid black;
       span{
         bottom:1vh;
         height: .5vh;
