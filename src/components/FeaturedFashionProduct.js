@@ -82,6 +82,27 @@ a:hover > span{
     }
   }
 }
+@media screen and (min-width: 375px){
+  border: .7vw solid black;
+  .f-container{
+    font-size: 1.9vh;
+    img{
+      margin-left: -9.5vw;
+    }
+    a{
+      margin-top:-9vh;
+      margin-left: -29vw;
+      width: 58vw;
+
+      span{
+        margin-left: -13vw;
+        padding: .1vw;
+        margin-top: 20.5vh;
+        border: .7vw solid black;
+      }
+    }
+  }
+}
 @media screen and (min-width: 412px){
   border: .7vw solid black;
   .f-container{
@@ -196,6 +217,7 @@ a:hover > span{
       bottom: 6vh;
     }
     a{
+      
       width: 15vw;
       height: 40vh;
       margin-top:-12vh;

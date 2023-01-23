@@ -25,7 +25,7 @@ position: fixed;
 border:.2vw solid black;
 height: 22vh;
 width: 99.5vw;
-z-index: 2;
+z-index: 3;
 
 .link{
   display: block;

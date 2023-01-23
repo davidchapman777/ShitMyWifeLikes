@@ -35,14 +35,14 @@ img{
       margin-left: -9vw;
 }
 a{
-        box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px black;
     position: absolute;
     margin-top: -6.5vh;
     height:26vh;
     width: 60vw;
     margin-left: -30vw;
     text-decoration: none;
-    
+    z-index: 2;
     span{
       background: white;
       box-shadow: 0 0 10px black;
@@ -78,6 +78,27 @@ a:hover > span{
         padding: .1vw;
         margin-top: 20.5vh;
         border: 1vw solid black;
+      }
+    }
+  }
+}
+@media screen and (min-width: 375px){
+  border: .7vw solid black;
+  .f-container{
+    font-size: 1.9vh;
+    img{
+      margin-left: -9.5vw;
+    }
+    a{
+      margin-top:-9vh;
+      margin-left: -29vw;
+      width: 58vw;
+
+      span{
+        margin-left: -13vw;
+        padding: .1vw;
+        margin-top: 20.5vh;
+        border: .7vw solid black;
       }
     }
   }

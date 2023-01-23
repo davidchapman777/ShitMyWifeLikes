@@ -41,6 +41,7 @@ line-height: 3vh;
     width: 60vw;
     margin-left: -30vw;
     text-decoration: none;
+    z-index: 2;
     
     span{
       background: white;
@@ -77,6 +78,27 @@ a:hover > span{
         padding: .1vw;
         margin-top: 18vh;
         border: 1vw solid black;
+      }
+    }
+  }
+}
+@media screen and (min-width: 375px){
+  border: .7vw solid black;
+  .f-container{
+    font-size: 1.9vh;
+    img{
+      margin-left: -9.5vw;
+    }
+    a{
+      margin-top:-6vh;
+      margin-left: -29vw;
+      width: 58vw;
+
+      span{
+        margin-left: -12vw;
+        padding: .1vw;
+        margin-top: 18vh;
+        border: .7vw solid black;
       }
     }
   }
@@ -221,6 +243,7 @@ a:hover > span{
       bottom: 6vh;
     }
     a{
+      border: .1vw solid red;
       z-index: 2;
       width: 15.5vw;
       height: 40vh;
