@@ -449,7 +449,7 @@ z-index: 0;
       height: 39.2vh;
       span{
         bottom:0.1vh;
-        left:2.8vw;
+        left:4vw;
         font-size:2.4vh;
         padding-bottom:1.5vw;
         border: .3vw solid black;
