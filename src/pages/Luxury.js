@@ -48,7 +48,7 @@ overscroll-behavior-x: none;
     .products-container{
         grid-template-columns: 25vw 25vw 1vw;
         margin-left:11vw;
-        top: -57vh;
+        top: -26vh;
     }
     
 }

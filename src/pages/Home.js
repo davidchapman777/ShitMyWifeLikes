@@ -14,7 +14,7 @@ const Home = () => {
         <Wrapper>
             <div className="background"></div>
             <SortDecor/>
-            <PageHero title='Home'/>
+            <PageHero title='For-Home'/>
                 <div className="products-container">
                     {filtered_products.map((p) => {
                         return <DecorProduct key={p.id} {...p} />
@@ -50,7 +50,7 @@ overscroll-behavior-x: none;
     .products-container{
         grid-template-columns: 25vw 25vw 1vw;
         margin-left:11vw;
-        top: -57vh;
+        top: -26vh;
     }
     
 }
