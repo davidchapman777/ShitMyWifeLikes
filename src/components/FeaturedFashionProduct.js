@@ -34,6 +34,7 @@ line-height: 3vh;
     margin-left: -8vw;
   }
   a{
+    z-index: 2;
     position: absolute;
     margin-top: -9.55vh;
     height:26vh;
@@ -49,8 +50,14 @@ line-height: 3vh;
       border: 1vw solid black;
       margin-top: 21vh;
       margin-left: -15vw;
+      transition: .5s;
     }
   }
+}
+a:hover > span{
+  transform: scale(1.3);
+  background: black;
+  color: white;
 }
 @media screen and (min-width: 280px){
   border: .7vw solid black;

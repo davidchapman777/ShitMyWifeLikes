@@ -50,8 +50,15 @@ line-height: 3vh;
       border: 1vw solid black;
       margin-top: 21vh;
       margin-left: -15vw;
+      transition: .5s;
     }
   }
+}
+
+a:hover > span{
+  transform: scale(1.3);
+  background: black;
+  color: white;
 }
 @media screen and (min-width: 280px){
   border: .7vw solid black;
@@ -186,6 +193,35 @@ line-height: 3vh;
       bottom: 6vh;
     }
     a{
+      z-index: 2;
+      width: 15.5vw;
+      height: 40vh;
+      margin-top:-12vh;
+      margin-left: -8vw;
+      span{
+        margin-left: -6vw;
+        padding: .1vw;
+        bottom:1vh;
+        border: .3vw solid black;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1640px){
+  border: .3vw solid black;
+  width: 15vw;
+  height: 40vh;
+  margin-top: 106vh;
+  .f-container{
+    font-size: 3vh;
+    img{
+      max-height: 19vh;
+      max-width: 14vw;
+      margin-left: -5.5vw;
+      bottom: 6vh;
+    }
+    a{
+      z-index: 2;
       width: 15.5vw;
       height: 40vh;
       margin-top:-12vh;

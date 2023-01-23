@@ -53,13 +53,12 @@ const SortBeauty = () => {
 const Wrapper = styled.div`
 position: relative;
 top: 22vh;
-width: 40vw;
+width: .001vw;
 height: 40vh;
 padding:1.4vw;
 line-height: 4vh;
 text-transform: uppercase;
 z-index: 1;
-
 
 .title{
     border: 1vw solid white;
@@ -247,6 +246,24 @@ z-index: 1;
     width: 12vw;
     box-shadow: 0 0 40px black;
     border: .3vw solid white;
+}
+.filters{
+    font-size: 2.3vh;
+    line-height: 4vh;
+    width: 10vw;
+    height: 40vh;
+    padding: 2vw;
+    border: .3vw solid white;
+}
+}
+@media screen and (min-width:1640px){
+    .title{
+    font-size: 3vh;
+    height: 10;
+    width: 12vw;
+    box-shadow: 0 0 40px black;
+    border: .3vw solid white;
+    margin-left: -1vw;
 }
 .filters{
     font-size: 2.3vh;

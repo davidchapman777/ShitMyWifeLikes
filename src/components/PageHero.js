@@ -97,7 +97,7 @@ top: 92vh;
 top: 87vh;
 width: 30vw;
 height: .5vh;
-left: 34.5vw;
+left: 33vw;
 border: .3vw solid white;
 .link{
     font-size:3vh;
@@ -109,7 +109,18 @@ border: .3vw solid white;
 top: 87vh;
 width: 30vw;
 height: .5vh;
-left: 34.5vw;
+left: 33vw;
+border: .3vw solid white;
+.link{
+    font-size:3vh;
+    box-shadow: 0 0 3vw black;
+    bottom: 1vh;
+}
+}
+@media screen and (min-width:1640px){
+top: 87vh;
+width: 20vw;
+left: 38vw;
 border: .3vw solid white;
 .link{
     font-size:3vh;

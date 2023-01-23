@@ -4,7 +4,6 @@
         "name": "moroccainoil leave-in conditioner",
         "price": 3000,
         "image": "https://www.sephora.com/productimages/sku/s2395069-main-zoom.jpg?imwidth=612",
-        "featured":true,
         "url":"https://www.sephora.com/product/moroccanoil-leave-in-conditioner-P462387?"
 
     },
@@ -105,7 +104,7 @@
     {
         "id": 15,
         "name": "\"DreamGenius\" makeup organizer",
-        "price": 33.99,
+        "price": 3399,
         "image": "https://m.media-amazon.com/images/I/81Sp7vuAJGL._AC_SX466_.jpg",
         "url":"https://www.amazon.com/DreamGenius-Organizer-Acrylic-Cosmetic-Storage/dp/B07DZGHM9N/ref=sr_1_1_sspa?"
     },
@@ -113,6 +112,7 @@
         "id": 16,
         "name": "tom ford bitter peach perfume",
         "price": 24000,
+        "featured":true,
         "image": "https://www.sephora.com/productimages/sku/s2474054-main-zoom.jpg?imwidth=612",
         "url":"https://www.sephora.com/product/tom-ford-bitter-peach-eau-de-parfum-P464304?"
     },

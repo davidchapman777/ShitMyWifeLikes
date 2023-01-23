@@ -26,6 +26,7 @@ const Electronic = () => {
 const Wrapper = styled.div`
 position: relative;
 overscroll-behavior-x: none;
+
 .background{
     position: fixed;
     background-image: url(${Pic});
@@ -34,6 +35,7 @@ overscroll-behavior-x: none;
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: blur(5px);
 }
 .products-container{
     display: grid;
@@ -47,8 +49,8 @@ overscroll-behavior-x: none;
 @media screen and (min-width:1024px){
     .products-container{
         grid-template-columns: 25vw 25vw 1vw;
-        margin-left:8.5vw;
-        top: -26vh;
+        margin-left:11vw;
+        top: -57vh;
     }
     
 }

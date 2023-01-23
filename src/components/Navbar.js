@@ -39,6 +39,13 @@ z-index: 2;
   text-align: center;
   text-decoration: none;
   color: black;
+  transition: .5s;
+}
+.link:hover{
+  background: black;
+  border: .3vw solid white;
+  color: white;
+
 }
 
 .title{
@@ -179,6 +186,34 @@ z-index: 2;
     padding-top: 1vw;
     line-height: 4vh;
     top: 1vw;
+  }
+  .link{
+      display: inline-block;
+      left: 18vw;
+      font-size: 1.5vw;
+      letter-spacing: 0vw;
+      height:3vh;
+      width: 10vw;
+      padding-top: .9vw;
+      border: .3vw solid black;
+      margin: 1.5vw;
+      top: 5vh;
+  }
+}
+@media screen and (min-width:1640px){
+  height: 22vh;
+  width: 98.3vw;
+  border: .4vw solid black;
+  .title{
+    font-size: 5vh;
+    height: 13.5vh;
+    width: 9vw;
+    border:.3vw solid white;
+    padding-bottom: 1.5vw;
+    padding-top: 1vw;
+    line-height: 4vh;
+    top: 1vw;
+    margin-left: -1vw;
   }
   .link{
       display: inline-block;

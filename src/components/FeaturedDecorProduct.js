@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { formatPrice } from "../utils/helpers"
 
-const FeaturedDecorProduct = ({name, price, image,url}) => {
+const FeaturedDecorProduct = ({name, price, image, url}) => {
      return (
       <Wrapper> 
         <div className='f-container'>
@@ -53,6 +53,11 @@ a{
       margin-left: -15vw;
     }
   }
+} 
+a:hover > span{
+  transform: scale(1.3);
+  background: black;
+  color: white;
 }
 @media screen and (min-width: 280px){
   border: .7vw solid black;
@@ -191,11 +196,42 @@ a{
       bottom: 6vh;
     }
     a{
+      z-index: 2;
       width: 15vw;
       height: 40vh;
       margin-top:-9vh;
       margin-left: -7.5vw;
       span{
+        margin-left: -6.5vw;
+        padding: .1vw;
+        bottom:1vh;
+        border: .3vw solid black;
+        transition: .5s;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1640px){
+  border: .3vw solid black;
+  width: 15vw;
+  height: 40vh;
+  margin-top: 106vh;
+  .f-container{
+    font-size: 2.5vh;
+    img{
+      max-height: 19vh;
+      max-width: 14vw;
+      margin-left: -5.5vw;
+      bottom: 6vh;
+    }
+    a{
+      z-index: 2;
+      width: 15.5vw;
+      height: 40vh;
+      margin-top:-12vh;
+      margin-left: -7.7vw;
+      span{
+        font-size: 3vh;
         margin-left: -6.5vw;
         padding: .1vw;
         bottom:1vh;

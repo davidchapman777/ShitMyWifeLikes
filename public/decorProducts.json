@@ -4,7 +4,6 @@
         "name": "skin pharm candle",
         "price": 4000,
         "image": "https://cdn.shopify.com/s/files/1/0563/2747/1272/products/skinpharm-product-candle-small_5000x.png?v=1654109825",
-        "featured":true,
         "url":"https://skinpharm.com/products/ranger-station-small-candle"
 
     },
@@ -27,6 +26,7 @@
         "id": 32,
         "name": "chrissy teigen\"cravings\" cookbook",
         "price": 2800,
+        "featured":true,
         "image": "https://cdn.shopify.com/s/files/1/0484/4404/7520/products/CRAVINGS17081.png?v=1611792599",
         "url":"https://cravingsbychrissyteigen.com/cravings-recipes-for-all-the-food-you-want-to-eat"
         
@@ -177,7 +177,7 @@
     {
         "id": 54,
         "name": "dilja dimmable wagon wheel chandelier",
-        "price": 339.33,
+        "price": 33933,
         "image": "https://secure.img1-cg.wfcdn.com/im/86577557/resize-h755-w755%5Ecompr-r85/2183/218361133/Dilja+16+-+Light+Dimmable+Wagon+Wheel+Chandelier.jpg",
         "url":"https://www.wayfair.com/lighting/pdp/mercer41-16-light-gold-finish-classic-wagon-wheel-chandelier-w009570301.html"
     },
