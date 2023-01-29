@@ -243,7 +243,6 @@ a:hover > span{
       bottom: 6vh;
     }
     a{
-      border: .1vw solid red;
       z-index: 2;
       width: 15.5vw;
       height: 40vh;

@@ -6,7 +6,7 @@ const Information = () => {
         <Wrapper>
             <div className="backgroundf"></div>
             <div className="title">ABOUT</div>
-                <div className="p">Hi there! My name is David and I made "Sh!t My Wife Likes" with the intention to help help other men find their ladies something special for any occasion. I always have a hard time finding the perfect gift for my wife and I'm certain you can relate. Luckily my wife told me to make this website in order to help aid people in their search for a gift. My wife is full of wonderful ideas and knows what's best, especially when it comes to gifts. So take a look at the sh!t my wife likes. Your wife might like it too!
+                <div className="p">Hi there! My name is David and I made "Sh!t My Wife Likes" with the intention to help other men find their ladies something special for any occasion. I always have a hard time finding the perfect gift for my wife and I'm certain you can relate. Luckily my wife told me to make this website in order to help aid people in their search for a gift. My wife is full of wonderful ideas and knows what's best, especially when it comes to gifts. So take a look at the sh!t my wife likes. Your wife might like it too!
                 </div>
         </Wrapper>
   )
