@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 function App() {
   return (
-    <main>
+    <Wrapper>
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -17,9 +17,13 @@ function App() {
           <Route path="*" element={ <Error/>} />
         </Routes>
       </BrowserRouter>
-    </main>
+
+    </Wrapper>
   );
 }
-
-
 export default App;
+const Wrapper = styled.div`
+@media screen and (orientation:landscape){
+  rotate: -90;
+}
+`
