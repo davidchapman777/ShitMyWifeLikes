@@ -28,9 +28,9 @@ background: #00e1ff;
 .active{
   display: block;
   position: relative;
-  border: .1vw solid black;
-  width: 25vh;
-  left: 46.4%;
+  border: .15vh solid black;
+  width: 20vh;
+  left: 50%;
   height: 1.5vh;
   top: .9vh;
   padding: 1vh;
@@ -43,9 +43,9 @@ background: #00e1ff;
 .inactive{
   display: block;
   position: relative;
-  border: .1vw solid black;
-  width: 25vh;
-  left: 46.4%;
+  border: .15vh solid black;
+  width: 20vh;
+  left: 50%;
   height: 1.5vh;
   top: .9vh;
   padding: 1vh;

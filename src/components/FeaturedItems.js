@@ -33,8 +33,6 @@ top: 5vh;
   text-align: center;
   background: black;
   color: white;
-  height: 2.6vh;
-  padding-top: 1vh;
   max-width: 40vh;
 
 }

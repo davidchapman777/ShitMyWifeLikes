@@ -56,11 +56,11 @@ margin: auto;
     margin: auto;
     text-decoration: none;
     z-index: 2;
-    border: 0.1vw solid black;
+    border: 0.2vw solid black;
     span{
       position: absolute;
       color: black;
-      border: .1vw solid black;
+      border: .2vw solid black;
       transition: .5s;
       margin: auto;
       left: 0;
@@ -77,7 +77,17 @@ a:hover > span{
   border: 0.1vw solid white;
 
 }
+@media only screen and (min-width: 768px) {
+  .f-container{
 
+    a{
+      border: 0.1vh solid black;
+    }
+    span{
+      border: 0.1vh solid black;
+    }
+  }
+}
 `
 
 

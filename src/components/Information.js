@@ -25,6 +25,7 @@ margin: auto;
 left: 0;
 right: 0;
 top: 5vh;
+margin-bottom: 5vh;
 .title{
     border: .1vw solid white;
     position: absolute;
@@ -33,24 +34,35 @@ top: 5vh;
     left: 0;
     right: 0;
     color: white;
-    height: 2.6vh;
-    padding-top: 1vh;
     max-width: 40vh;
     background: black;
 }
 .p{
     text-align: center;
-    border: .1vw solid black;
+    border: .2vw solid black;
     position: absolute;
-    padding: 1.5vw;
+    padding: 1vh;
     line-height: 3vh;
     margin: auto;
     left: 0;
     right: 0;
     top: 5vh;
+    width: 34vh;
+}
+@media only screen and (min-width: 768px) {
+.p{
+    width: 100%;
+}
 }
 @media only screen and (min-width: 992px) {
-max-width: 140vh;
+    .p{
+        max-width: 140vh;
+        border: .1vh solid black;
+    }
+    .title{
+        border: 0.1vh solid white;
+    }
+
 }
 
 

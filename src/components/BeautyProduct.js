@@ -44,7 +44,7 @@ margin-bottom: 3vh;
     right: 0;
   }
   a{
-    border: .1vh solid black;
+    border: .15vh solid black;
     display: block;
     margin: auto;
     left: 0;
@@ -55,7 +55,7 @@ margin-bottom: 3vh;
     position: absolute;
     span{
       font-size: 2vh;
-      border: .1vw solid black;
+      border: .15vh solid black;
       color: black;
       position: absolute;
       padding: .5vh;

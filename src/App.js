@@ -23,8 +23,6 @@ function App() {
 }
 export default App;
 const Wrapper = styled.div`
-rotate: -90;
-@media screen and (orientation:landscape){
-  rotate: -90deg;
-}
+
+
 `
