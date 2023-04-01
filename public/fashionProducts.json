@@ -1,9 +1,9 @@
 [
     {
         "id": 86,
-        "name": "cartier rose gold wedding band",
+        "name": "cartier rose gold band",
         "price": 117000,
-        "image": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw7ebd70e0/images/large/637708740557554559-2059287.png?sw=750&sh=750&sm=fit&sfrm=png",
+        "image": "/images/c1.png",
         "featured":true,
         "url":"https://www.cartier.com/en-us/jewelry/wedding-bands/love/love-wedding-band-CRB4085200.html"
 
@@ -12,21 +12,21 @@
         "id": 87,
         "name": "cartier rose gold small model ring",
         "price": 495000,
-        "image": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwe235fef9/images/large/637792715152896279-2295948.png?sw=750&sh=750&sm=fit&sfrm=png",
+        "image": "/images/c2.png",
         "url":"https://www.cartier.com/en-us/jewelry/rings/love-ring-small-model-CRB4218100.html"
     },
     {
         "id": 88,
         "name": "cartier yellow gold love bracelet",
         "price": 690000,
-        "image": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dwcbdc461f/images/large/637925972888407302-2365438.png?sw=750&sh=750&sm=fit&sfrm=png",
+        "image": "/images/c3.png",
         "url":"https://www.cartier.com/en-us/jewelry/bracelets/love/love-bracelet-B6067517.html"
     },
     {
         "id": 89,
         "name": "brilliant earth emerald diamond earrings",
         "price": 29500,
-        "image": "https://image.brilliantearth.com/media/product_images/YL/BE3DEM_EM150_top_yellow.jpg",
+        "image": "/images/c4.png",
         "url":"https://www.brilliantearth.com/Four-prong-Emerald-Diamond-Stud-Earrings-Gold-BE3DEM-12069399/?"
 
     },
@@ -106,98 +106,98 @@
         "id": 100,
         "name": "element 79 emerald diamond necklace",
         "price": 242000,
-        "image": "https://cdn.shoplightspeed.com/shops/629071/files/36333188/image.jpg",
+        "image": "/images/c5.png",
         "url":"https://www.element79jewelry.com/free-set-emerald-diamond-necklace.html"
     },
     {
         "id": 101,
         "name": "element 79 platinum pear-shaped diamond ring",
         "price": 545500,
-        "image": "https://cdn.shoplightspeed.com/shops/629071/files/25495172/image.jpg",
+        "image": "/images/c6.png",
         "url":"https://www.element79jewelry.com/platinum-step-cut-kite-shaped-pear-shaped-diamond.html"
     },
     {
         "id": 102,
         "name": "element 79 free set trillion diamond necklace",
         "price": 277200,
-        "image": "https://cdn.shoplightspeed.com/shops/629071/files/44146393/image.jpg",
+        "image": "/images/c7.png",
         "url":"https://www.element79jewelry.com/free-set-trillion-necklace.html"
     },
     {
         "id": 103,
         "name": "element 79 bezel set brown diamond earrings",
         "price": 118800,
-        "image": "https://cdn.shoplightspeed.com/shops/629071/files/27684905/image.jpg",
+        "image": "/images/c8.png",
         "url":"https://www.element79jewelry.com/bezel-set-brown-diamonds.html"
     },
     {
         "id": 104,
         "name": "element 79 platinum wavy eternity band",
         "price": 228500,
-        "image": "https://cdn.shoplightspeed.com/shops/629071/files/27527628/image.jpg",
+        "image": "/images/c9.png",
         "url":"https://www.element79jewelry.com/platinum-wavy-eternity-band.html"
     },
     {
         "id": 105,
         "name": "element 79 14k white gold and diamond ear climbers",
         "price": 435600,
-        "image": "https://cdn.shoplightspeed.com/shops/629071/files/19904425/image.jpg",
+        "image": "/images/c10.png",
         "url":"https://www.element79jewelry.com/ear-climber-diamond-earrings-212cw.html"
     },
     {
         "id": 106,
         "name": "brilliant earth abierta diamond ring",
         "price": 199000,
-        "image": "https://image.brilliantearth.com/media/product_images/46/BE2D5158_yellow_top_old.jpg",
+        "image": "/images/c11.png",
         "url":"https://www.brilliantearth.com/Abierta-Diamond-Ring-Gold-BE2D5158/"
     },
     {
         "id": 107,
         "name": "tiffany & co. letter pendant",
         "price":115000 ,
-        "image": "https://media.tiffany.com/is/image/Tiffany/EcomItemL2/elsa-perettiletter-a-pendant-10634059_934198_ED.jpg?&op_usm=1.0,1.0,6.0&$cropN=0.1,0.1,0.8,0.8&defaultImage=NoImageAvailableInternal&&defaultImage=NoImageAvailableInternal&fmt=webp",
+        "image": "/images/c12.png",
         "url":"https://www.tiffany.com/jewelry/necklaces-pendants/elsa-peretti-letter-a-pendant-GRP00331/"
     },
     {
         "id": 108,
         "name": "cartier d'amour bracelet",
         "price": 75000,
-        "image": "https://www.cartier.com/dw/image/v2/BGTJ_PRD/on/demandware.static/-/Sites-cartier-master/default/dw82857658/images/large/637708799321563362-2088378.png?sw=750&sh=750&sm=fit&sfrm=png",
+        "image": "/images/c13.png",
         "url":"https://www.cartier.com/en-us/jewelry/bracelets/cartier-damour-bracelet-xs-CRB6045717.html"
     },
     {
         "id": 109,
         "name": "mirrored cat eye sunglasses",
         "price": 25000,
-        "image": "https://n.nordstrommedia.com/id/sr3/fdf70599-12ac-4a9d-a336-f9aca1b6a44e.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196",
+        "image": "/images/c14.png",
         "url":"https://www.nordstrom.com/s/day-56mm-mirrored-cat-eye-sunglasses/7171447"
     },
     {
         "id": 110,
         "name": "chanel classic handbag",
         "price": 810000,
-        "image": "https://www.chanel.com/images//t_one///q_auto:good,f_auto,fl_lossy,dpr_1.2/w_1240/classic-handbag-red-wool-jersey-gold-tone-metal-wool-jersey-gold-tone-metal-packshot-artistique-vue1-a01112b09813nl806-9516404572190.jpg",
+        "image": "/images/c15.png",
         "url":"https://www.chanel.com/us/fashion/p/A01112B09813NL806/classic-handbag-wool-jersey-gold-tone-metal/"
     },
     {
         "id": 111,
         "name": "golden goose low-top sneakers",
         "price": 62500,
-        "image": "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_418/01/nm_4326675_100189_a",
+        "image": "/images/c16.png",
         "url":"https://www.neimanmarcus.com/p/golden-goose-superstar-leather-glitter-low-top-sneakers-prod251920168?"
     },
     {
         "id": 112,
         "name": "brilliant earth 18k white gold blue topaz eternity ring",
         "price": 199000,
-        "image": "https://image.brilliantearth.com/media/product_images/64/BE2LBT300_white_top_old.jpg",
+        "image": "/images/c17.png",
         "url":"https://www.brilliantearth.com/Eternity-London-Blue-Topaz-Cocktail-Ring-White-Gold-BE2LBT300/"
     },
     {
         "id": 113,
         "name": "brilliant earth 18k yellow gold blue topaz cocktail ring",
         "price": 149000,
-        "image": "https://image.brilliantearth.com/media/product_images/4D/BE2LBT800_yellow_top_old.jpg",
+        "image": "/images/c18.png",
         "url":"https://www.brilliantearth.com/Toi-et-Moi-London-Blue-Topaz-and-Lab-Alexandrite-Cocktail-Ring-Gold-BE2LBT800/"
     }
     

@@ -6,8 +6,9 @@ const FeaturedFashionProduct = ({name, price, image, url}) => {
      return (
       <Wrapper> 
         <div className='f-container'>
-              <div>{name}</div>
+           <div className='name'>{name}
               <div>{formatPrice(price)}</div>
+           </div>
               <img src={image} />
               <a href={url}><span className="span">CLICK TO BUY</span></a>
         </div>
@@ -16,221 +17,66 @@ const FeaturedFashionProduct = ({name, price, image, url}) => {
 }
 
 const Wrapper = styled.div`
-border: 1vw solid black;
 position: relative;
-margin-top: 5vh;
-margin-left: 20vw;
-width: 58vw;
+width: 36vh;
 height: 25vh;
+margin: auto;
+margin-bottom: 3vh;
 .f-container{
 text-align: center;
 text-transform: uppercase;
 line-height: 3vh;
+position: absolute;
+height: 100%;
+width: 99.9%;
+left: 0;
+right:0;
+margin: auto;
+.name{
+  margin-top: 1vh;
+}
   img{
     position: absolute;
-    max-height: 18vh;
-    max-width: 18vw;
+    max-height: 10vh;
     bottom: 5vh;
-    margin-left: -8vw;
+    margin: auto;
+    left: 0;
+    right: 0;
   }
   a{
-    z-index: 2;
     position: absolute;
-    margin-top: -9.55vh;
-    height:26vh;
-    width: 60vw;
-    margin-left: -30vw;
+    
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
     text-decoration: none;
-    box-shadow: 0 0 10px black;
+    z-index: 2;
+    border: 0.1vw solid black;
     span{
-      background: white;
-      box-shadow: 0 0 10px black;
       position: absolute;
       color: black;
-      border: 1vw solid black;
-      margin-top: 21vh;
-      margin-left: -15vw;
+      border: .1vw solid black;
       transition: .5s;
+      margin: auto;
+      left: 0;
+      right: 0;
+      bottom: 0;
     }
   }
 }
+
 a:hover > span{
-  transform: scale(1.3);
+  transform: scale(1.1);
   background: black;
   color: white;
-}
-@media screen and (min-width: 280px){
-  border: .7vw solid black;
-  .f-container{
-    font-size: 2vh;
-    img{
-      margin-left: -8vw;
-      bottom: 6vh;
-    }
-    a{
-      margin-top:-9vh;
-      margin-left: -29vw;
-      width: 58vw;
-      height: 25vh;
+  border: 0.1vw solid white;
 
-      span{
-        margin-left: -17vw;
-        padding: .1vw;
-        margin-top: 20.5vh;
-        border: 1vw solid black;
-      }
-    }
-  }
 }
-@media screen and (min-width: 375px){
-  border: .7vw solid black;
-  .f-container{
-    font-size: 1.9vh;
-    img{
-      margin-left: -9.5vw;
-    }
-    a{
-      margin-top:-9vh;
-      margin-left: -29vw;
-      width: 58vw;
 
-      span{
-        margin-left: -13vw;
-        padding: .1vw;
-        margin-top: 20.5vh;
-        border: .7vw solid black;
-      }
-    }
-  }
-}
-@media screen and (min-width: 412px){
-  border: .7vw solid black;
-  .f-container{
-    font-size: 1.7vh;
-    img{
-      margin-left: -9.5vw;
-    }
-    a{
-      margin-top:vh;
-      margin-left: -29vw;
-      width: 58vw;
-
-      span{
-        margin-left: -13vw;
-        padding: .1vw;
-        margin-top: 21vh;
-        border: .5vw solid black;
-      }
-    }
-  }
-}
-@media screen and (min-width: 540px){
-  border: .7vw solid black;
-  .f-container{
-    font-size: 1.7vh;
-    img{
-      margin-left: -9.5vw;
-    }
-    a{
-      margin-top:-6.5vh;
-      margin-left: -29vw;
-      width: 58vw;
-
-      span{
-        margin-left: -9vw;
-        padding: .1vw;
-        margin-top: 21.5vh;
-        border: .5vw solid black;
-      }
-    }
-  }
-}
-@media screen and (min-width: 768px){
-  border: .7vw solid black;
-  .f-container{
-    font-size: 1.7vh;
-    img{
-      margin-left: -9.5vw;
-    }
-    a{
-      margin-top:-6.5vh;
-      margin-left: -29vw;
-      width: 58vw;
-
-      span{
-        margin-left: -9vw;
-        padding: .1vw;
-        margin-top: 21.5vh;
-        border: .5vw solid black;
-      }
-    }
-  }
-}
-@media screen and (min-width: 820px){
-  border: .7vw solid black;
-  .f-container{
-    font-size: 1.7vh;
-    a{
-      margin-top:-6.5vh;
-      margin-left: -29vw;
-      width: 58vw;
-
-      span{
-        margin-left: -9vw;
-        padding: .1vw;
-        margin-top: 21.5vh;
-        border: .5vw solid black;
-      }
-    }
-  }
-}
-@media screen and (min-width: 912px){
-  border: .7vw solid black;
-  .f-container{
-    font-size: 2vh;
-    img{
-      margin-left: -8.5vw;
-    }
-    a{
-      margin-top:-6vh;
-      height: 25vh;
-      span{
-        margin-left: -10vw;
-        padding: .1vw;
-        margin-top: 21vh;
-        border: .5vw solid black;
-      }
-    }
-  }
-}
-@media screen and (min-width: 1024px){
-  border: .3vw solid black;
-  width: 15vw;
-  height: 40vh;
-  margin-top: 106vh;
-  .f-container{
-    font-size: 3vh;
-    img{
-      max-height: 19vh;
-    max-width: 14vw;
-      margin-left: -5.5vw;
-      bottom: 6vh;
-    }
-    a{
-      
-      width: 15vw;
-      height: 40vh;
-      margin-top:-12vh;
-      margin-left: -7.5vw;
-      span{
-        margin-left: -6.5vw;
-        padding: .1vw;
-        bottom:1vh;
-        border: .3vw solid black;
-      }
-    }
-  }
-}
 `
 
 

@@ -9,7 +9,7 @@ const MainPage = () => {
             <div className="about">
                 <Information/>
             </div>
-            <div className="featured-container">
+            <div>
                 <FeaturedItems/>
             </div>
             <div className="background"></div>
@@ -19,19 +19,22 @@ const MainPage = () => {
 
 const Wrapper = styled.div`
 position: relative;
-.featured-container{
-position: absolute;
-}
+width: 98%;
+top: 22vh;
+padding-bottom: 5vh;
 
 .background{
     position: fixed;
     background-image: url(${Pic});
-    height: 103vh;
-    width: 100%;
-    max-width: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     z-index: -1;
+    filter: blur(5px);
+
 }
 `
 

@@ -1,11 +1,9 @@
 import styled from "styled-components"
-import PageHero from "../components/PageHero"
 
 
 const Error = () => {
     return (
        <main>
-            <PageHero title='Error'/>
             <Wrapper>  
                 <div>Beauty</div>
             </Wrapper>

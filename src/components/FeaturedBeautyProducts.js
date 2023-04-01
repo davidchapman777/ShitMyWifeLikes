@@ -21,12 +21,11 @@ const FeaturedBeautyProducts = () => {
         {featured.map((item) => {
           return (
             <FeaturedBeautyProduct key={item.id} {...item} />
-        )
-      })}
+            )
+          })}
     </div>
+         
   )
 }
-
-
-
 export default FeaturedBeautyProducts
+

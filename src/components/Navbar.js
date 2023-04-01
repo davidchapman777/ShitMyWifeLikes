@@ -1,233 +1,141 @@
 import styled from "styled-components"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 
 const Navbar = () => {
     return (
       <Wrapper>
-        <div className="title">sh!t my wife likes
-        </div>
+        <div className="title">sh!t my wife likes</div>
         <div className="links-container">
           <div className="links">
-            <Link to='/' className="link">MAIN-PAGE</Link>
-            <Link to='/beauty' className="link">BEAUTY</Link>
-            <Link to='/home' className="link">FOR-HOME</Link>
-            <Link to='/electronics' className="link">ELECTRONICS</Link>
-            <Link to='/luxury' className="link">LUXURY</Link>
+            <NavLink to='/' className={({isActive})=>isActive? 'active':'inactive'}>MAIN-PAGE</NavLink>
+            <NavLink to='/beauty' className={({isActive})=>isActive? 'active':'inactive'}>BEAUTY</NavLink>
+            <NavLink to='/home' className={({isActive})=>isActive? 'active':'inactive'}>FOR-HOME</NavLink>
+            <NavLink to='/electronics' className={({isActive})=>isActive? 'active':'inactive'}>ELECTRONICS</NavLink>
+            <NavLink to='/luxury' className={({isActive})=>isActive? 'active':'inactive'}>LUXURY</NavLink>
           </div>
         </div>
         </Wrapper>
   )
 }
 const Wrapper = styled.div`
-background-color: aqua;
 position: fixed;
 border:.2vw solid black;
 height: 22vh;
-width: 99.5vw;
+width: 99.6%;
 z-index: 3;
-
-.link{
+background: #00e1ff;
+.active{
   display: block;
   position: relative;
   border: .1vw solid black;
-  width: 50vw;
-  left: 45vw;
-  height: 2.55vh;
+  width: 25vh;
+  left: 46.4%;
+  height: 1.5vh;
   top: .9vh;
-  padding: 1vw;
+  padding: 1vh;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+  background: black;
+}
+.inactive{
+  display: block;
+  position: relative;
+  border: .1vw solid black;
+  width: 25vh;
+  left: 46.4%;
+  height: 1.5vh;
+  top: .9vh;
+  padding: 1vh;
   text-align: center;
   text-decoration: none;
   color: black;
   transition: .5s;
+  background: none;
 }
-.link:hover{
+.inactive:hover{
   background: black;
-  border: .3vw solid white;
+  border: .1vw solid white;
   color: white;
 
 }
 
 .title{
-  border: 1vw solid white;
+  border: .6vh solid white;
   color: white;
-  position: fixed;
-  width: 35vw;
-  height: 17.5vh;
+  position: absolute;
+  width: 20vh;
+  height: 17vh;
   top: 1vh;
-  left: 2vw;
+  left: 1vh;
   text-transform: uppercase;
-  font-size: 4vh;
-  padding:1.5vw;
+  font-size: 3.7vh;
+  padding:.5vh;
+  text-align: left;
   background: black;
   line-height: 6vh;
   box-shadow: 0 0 30px black;
 }
 
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+  .links{
+    display: flex;
+    flex-wrap: wrap;
+    width: 55vh;
+    height: 20vh;
+    position: relative;
+    left: 32%;
+  }
+  .active{
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .inactive{
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .links{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 68%;
+    left: 25%;
+  }
+  .active{
+    margin-right: 1vh;
+  }
+  .inactive{
+    margin-right: 1vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .links{
+    left: 25%;
+  }
+}
 
 
-@media screen and (min-width:280px){
-  .title{
-    font-size: 3.6vh;
-  }
-  .link{
-    height: 2.71vh;
-    padding-top: 1vw;
-  }
-}
-@media screen and (min-width:360px){
-  .title{
-    font-size: 4vh;
-  }
-  .link{
-    height: 2.71vh;
-    padding-top: 1vw;
-  }
-}
-@media screen and (min-width:390px){
-  .title{
-    font-size: 3vh;
-  }
-  .link{
-    height: 2.3vh;
-    padding-top: 2vw;
-  }
-}
-@media screen and (min-width:412px){
-  .title{
-    font-size: 3vh;
-  }
-  .link{
-    height: 2.21vh;
-    padding-top: 2vw;
-    border: .4vw solid black;
-  }
-}
-@media screen and (min-width:414px){
-  .title{
-    font-size: 3vh;
-  }
-  .link{
-      height: 2.17vh;
-      padding-top: 2vw;
-
-  }
-}
-@media screen and (min-width:540px){
-  .title{
-    font-size: 5vh;
-    height: 16.6vh;
-    width: 29.5vw;
-    
-  }
-  .link{
-      font-size: 3vw;
-      letter-spacing: 1vw;
-      height:2.1vh;
-      padding-top: 1vw;
-      border: .3vw solid black;
-  }
-}
-@media screen and (min-width:768px){
-  .title{
-    font-size: 5vh;
-    height: 16.6vh;
-    width: 29.5vw;
-    
-  }
-  .link{
-      font-size: 3vw;
-      letter-spacing: 1vw;
-      height:2.1vh;
-      padding-top: 1vw;
-      border: .3vw solid black;
-  }
-}
-@media screen and (min-width:820px){
-  .title{
-    font-size: 5vh;
-    height: 16.6vh;
-    width: 29.5vw;
-    
-  }
-  .link{
-      font-size: 3vw;
-      letter-spacing: 1vw;
-      height:2.2vh;
-      padding-top: 1vw;
-      border: .3vw solid black;
-  }
-}
-@media screen and (min-width:912px){
-  .title{
-    font-size: 4vh;
-    height: 16.6vh;
-    width: 29.5vw;
-    
-  }
-  .link{
-      font-size: 3vw;
-      letter-spacing: 1vw;
-      height:2.2vh;
-      padding-top: 1vw;
-      border: .3vw solid black;
-  }
-}
-@media screen and (min-width:1024px){
-  height: 22vh;
-  width: 99.2vw;
-  border: .4vw solid black;
-  .title{
-    font-size: 4vh;
-    height: 15vh;
-    width: 9vw;
-    border:.3vw solid white;
-    padding-bottom: 1.5vw;
-    padding-top: 1vw;
-    line-height: 4vh;
-    top: 1vw;
-  }
-  .link{
-      display: inline-block;
-      left: 18vw;
-      font-size: 1.5vw;
-      letter-spacing: 0vw;
-      height:3vh;
-      width: 10vw;
-      padding-top: .9vw;
-      border: .3vw solid black;
-      margin: 1.5vw;
-      top: 5vh;
-  }
-}
-@media screen and (min-width:1640px){
-  height: 22vh;
-  width: 98.3vw;
-  border: .4vw solid black;
-  .title{
-    font-size: 5vh;
-    height: 13.5vh;
-    width: 9vw;
-    border:.3vw solid white;
-    padding-bottom: 1.5vw;
-    padding-top: 1vw;
-    line-height: 4vh;
-    top: 1vw;
-    margin-left: -1vw;
-  }
-  .link{
-      display: inline-block;
-      left: 18vw;
-      font-size: 1.5vw;
-      letter-spacing: 0vw;
-      height:3vh;
-      width: 10vw;
-      padding-top: .9vw;
-      border: .3vw solid black;
-      margin: 1.5vw;
-      top: 5vh;
-  }
-}
 
 `
 

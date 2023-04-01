@@ -58,7 +58,9 @@ line-height: 3vh;
 a:hover > span{
   transform: scale(1.3);
 }
-
+@media only screen and (min-width: 992px) {
+border: 0.1vw solid red;
+}
 `
 
 

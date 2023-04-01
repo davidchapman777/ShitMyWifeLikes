@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { DecorProduct, PageHero, SortDecor } from "../components"
+import { DecorProduct, SortDecor } from "../components"
 import { useDecorFilterContext } from "../context/DecorFilterContext"
 import Pic from '../images/background.jpeg'
 
@@ -14,7 +14,6 @@ const Home = () => {
         <Wrapper>
             <div className="background"></div>
             <SortDecor/>
-            <PageHero title='For-Home'/>
                 <div className="products-container">
                     {filtered_products.map((p) => {
                         return <DecorProduct key={p.id} {...p} />
@@ -39,20 +38,26 @@ overscroll-behavior-x: none;
 }
 .products-container{
     display: grid;
-    grid-template-columns: 50vw 1vw;
+    grid-template-columns: 1% 1%;
     position: relative;
-    top: -10vh;
+    top: 30vh;
     overscroll-behavior-x: none;
+    width: 99%;
+    justify-items: center;
+    justify-content: space-around;
 }
 
 
-@media screen and (min-width:1024px){
+@media only screen and (min-width: 992px) {
     .products-container{
-        grid-template-columns: 25vw 25vw 1vw;
-        margin-left:11vw;
-        top: -26vh;
+        grid-template-columns:1% 1% 1%;
     }
-    
+}
+
+@media only screen and (min-width: 1200px) {
+    .products-container{
+        grid-template-columns: 1% 1% 1% 1%;
+    }
 }
 
 `

@@ -9,7 +9,6 @@ import FeaturedElectronics from "./FeaturedElectronics";
 import FeaturedFashionProducts from "./FeaturedFashionProducts";
 import Information from "./Information";
 import Navbar from "./Navbar";
-import PageHero from "./PageHero";
 import SortBeauty from "./SortBeauty";
 import SortDecor from "./SortDecor";
 import SortElectronics from "./SortElectronics";
@@ -26,7 +25,6 @@ export {
     FashionProduct,
     ElectronicProduct,
     DecorProduct,
-    PageHero,
     Error,
     FeaturedBeautyProducts,
     BeautyProduct,

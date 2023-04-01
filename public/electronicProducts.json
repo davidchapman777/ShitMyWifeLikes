@@ -3,7 +3,7 @@
         "id":58 ,
         "name": "dyson corrale styler straightener",
         "price": 49999,
-        "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/products/hair-care/q4g-2022/Corrale-PDP/AEM_PDP-Gallery-1-C-Full%20Product-Celcius.jpg?cropPathE=desktop&fit=stretch,1&wid=1152",
+        "image": "/images/b1.png",
         "featured":true,
         "url":"https://www.dyson.com/content/dyson/us/en/products/hair-care/hair-straighteners/corrale/blue-rose-brush-comb#"
 
@@ -12,7 +12,7 @@
         "id": 59,
         "name": "dyson airwrap multi-styler",
         "price": 59999,
-        "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/hero/400714-01.png?$responsive$&cropPathE=desktop&fit=stretch,1&wid=960",
+        "image": "/images/b2.png",
         "url":"https://www.dyson.com/hair-care/hair-stylers/airwrap/complete-long-nickel-copper"
         
     },
@@ -20,7 +20,7 @@
         "id": 60,
         "name": "dyson supersonic hair dryer",
         "price": 42999,
-        "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/hero/389920-01.png?$responsive$&cropPathE=desktop&fit=stretch,1&wid=960",
+        "image": "/images/b3.png",
         "url":"https://www.dyson.com/content/dyson/us/en/products/hair-care/hair-dryers/supersonic/nickel-copper"
     },
     {
@@ -35,154 +35,154 @@
         "id": 62,
         "name": "apple watch series 8 with gps + cellular ",
         "price": 51900,
-        "image": "https://m.media-amazon.com/images/I/71LKSq7g51L._AC_SX522_.jpg",
+        "image": "/images/b4.png",
         "url":"https://www.amazon.com/Apple-Cellular-Midnight-Aluminum-Always/dp/B0BDHZR8R2/ref=sr_1_1?"
     },
     {
         "id": 63,
         "name": "appple airpods pro ",
         "price": 21900,
-        "image": "https://m.media-amazon.com/images/I/71bhWgQK-cL._AC_SX522_.jpg",
+        "image": "/images/b5.png",
         "url":"https://www.amazon.com/Apple-MWP22AM-A-AirPods-Pro/dp/B07ZPC9QD4"
     },
     {
         "id": 64,
         "name": "apple macbook air ",
         "price": 89900,
-        "image": "https://m.media-amazon.com/images/I/71vFKBpKakL._AC_SX522_.jpg",
+        "image": "/images/b6.png",
         "url":"https://www.amazon.com/dp/B08N5M7S6K/ref=redir_mobile_desktop?"
     },
     {
         "id": 65,
         "name": "apple ipad air",
         "price": 49999,
-        "image": "https://m.media-amazon.com/images/I/61XZQXFQeVL._AC_SX522_.jpg",
+        "image": "/images/b7.png",
         "url":"https://www.amazon.com/2022-Apple-iPad-10-9-inch-Wi-Fi/dp/B09V3HN1KC/ref=sr_1_1_sspa?"
     },
     {
         "id": 66,
         "name": "apple pencil",
         "price": 12129,
-        "image": "https://m.media-amazon.com/images/I/21AFhuQPhoL._AC_SX522_.jpg",
+        "image": "/images/b8.png",
         "url":"https://www.amazon.com/Apple-MU8F2AM-A-Pencil-Generation/dp/B07K1WWBJK/ref=sr_1_3?"
     },
     {
         "id": 67,
         "name": "razor electric scooter",
         "price": 26999,
-        "image": "https://m.media-amazon.com/images/I/71gh19umNML._AC_SY879_.jpg",
+        "image": "/images/b9.png",
         "url":"https://www.amazon.com/Razor-E300S-Seated-Electric-Scooter/dp/B0085HM3VE/ref=asc_df_B0085HM3VE/?"
     },
     {
         "id": 68,
         "name": "dyson v8 cordless vacuum",
         "price": 34999,
-        "image": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/400473-01.png?$responsive$&cropPathE=desktop&fit=stretch,1&wid=960",
+        "image": "/images/b10.png",
         "url":"https://www.dyson.com/vacuum-cleaners/cordless/v8/silver-nickel?"
     },
     {
         "id": 69,
         "name": "nespresso vertuo coffee and espresso machine",
         "price": 18299,
-        "image": "https://m.media-amazon.com/images/I/71PEOpQgLUL._AC_SX679_.jpg",
+        "image": "/images/b11.png",
         "url":"https://www.amazon.com/Nespresso-Vertuo-Espresso-Machine-Breville/dp/B01N6TVX8H/ref=asc_df_B01N6TVX8H/?"
     },
     {
         "id": 70,
         "name": "kindle",
         "price": 9999,
-        "image": "https://m.media-amazon.com/images/I/714brROA9eL._AC_SX679_.jpg",
+        "image": "/images/b12.png",
         "url":"https://www.amazon.com/kindle-the-lightest-and-most-compact-kindle/dp/B09SWW583J/ref=asc_df_B09SWW583J/?"
     },
     {
         "id": 71,
         "name": "polaroid camera",
         "price": 14099,
-        "image": "https://m.media-amazon.com/images/I/81QeC0OV7PL._AC_SX466_.jpg",
+        "image": "/images/b13.png",
         "url":"https://www.amazon.com/Polaroid-I-Type-Instant-Film-Camera/dp/B087G8M5SM/ref=sr_1_1_sspa?"
     },
     {
         "id": 72,
         "name": "ninja 8 quart air fryer",
         "price": 19500,
-        "image": "https://m.media-amazon.com/images/I/716YzkNcqTL._AC_SX679_.jpg",
+        "image": "/images/b14.png",
         "url":"https://www.amazon.com/Ninja-DZ201-2-Basket-Technology-Stainless/dp/B089TQWJKK/ref=asc_df_B089TQWJKK/?"
     },
     {
         "id": 73,
         "name": "oral b io series 9 electric toothbrush",
         "price": 29994,
-        "image": "https://m.media-amazon.com/images/I/81vyjvIKgML._SX466_.jpg",
+        "image": "/images/b15.png",
         "url":"https://www.amazon.com/Oral-B-iO-Electric-Toothbrush-Brush/dp/B088CK6XJ4/ref=asc_df_B088CK6XJ4/?"
     },
     {
         "id": 74,
         "name": "therabody smart goggles eye mask massager",
         "price": 19900,
-        "image": "https://www.therabody.com/dw/image/v2/BCWX_PRD/on/demandware.static/-/Sites-thg-master/default/dwaeaffe6d/images/PDP/SmartGoggles/Eye-Massager-Carousel-01.jpg?sw=1200",
+        "image": "/images/b16.png",
         "url":"https://www.therabody.com/us/en-us/eye-massager-smart-goggles.html"
     },
     {
         "id": 75,
         "name": "therabody theragun prime massager",
         "price": 29900,
-        "image": "https://www.therabody.com/dw/image/v2/BCWX_PRD/on/demandware.static/-/Sites-thg-master/default/dw24030632/images/PDP/grid/PRIME_BLACK_GRID_1.jpg?sw=1200",
+        "image": "/images/b17.png",
         "url":"https://www.therabody.com/us/en-us/prime-us.html?"
     },
     {
         "id": 76,
         "name": "smoothskin bare fit laser hair removal device",
         "price": 27900,
-        "image": "https://cdn.shopify.com/s/files/1/0016/0133/9461/products/CopyofBAREFIT-BlackonWhite_Vertical_-01_1_1024x1024.jpg?v=1637842307",
+        "image": "/images/b18.png",
         "url":"https://us.currentbody.com/products/smoothskin-bare-fit-ipl-hair-removal-device?"
     },
     {
         "id": 77,
         "name": "joovv red light therapy device",
         "price": 59900,
-        "image": "https://cdn.shopify.com/s/files/1/1155/1380/products/joovv-go-2-0-setup-charging-dock-002_1000x.jpg?v=1608770397",
+        "image": "/images/b19.png",
         "url":"https://joovv.com/products/joovv-go-2-0"
     },
     {
         "id": 78,
         "name": "ember travel mug",
         "price": 19995,
-        "image": "https://cdn.shopify.com/s/files/1/1080/6594/products/ember_BTM212_F_hero_600x.jpg?v=1672687410",
+        "image": "/images/b20.png",
         "url":"https://ember.com/products/ember-travel-mug-2"
     },
     {
         "id": 79,
         "name": "ember mug",
         "price": 12995,
-        "image": "https://cdn.shopify.com/s/files/1/1080/6594/products/ember_white_CM210_600x.jpg?v=1665666740",
-        "url":""
+        "image": "/images/b21.png",
+        "url":"https://ember.com/products/ember-mug-2?variant=32734187126869"
     },
     {
         "id": 80,
         "name": "xenvo polaroid lense for iphone",
         "price": 3999,
-        "image": "https://m.media-amazon.com/images/I/81lbtEFn5rL._AC_SX679_.jpg",
+        "image": "/images/b22.png",
         "url":"https://www.amazon.com/Xenvo-iPhone-Camera-Lens-Clip/dp/B01A6D2JVI/ref=sr_1_2_sspa?"
     },
     {
         "id": 81,
         "name": "keenray bucket towel warmer",
         "price": 14699,
-        "image": "https://m.media-amazon.com/images/I/71e5-u73y0L._AC_SX679_.jpg",
+        "image": "/images/b23.png",
         "url":"https://www.amazon.com/Keenray-Bathroom-Oversized-Bathrobes-Blankets/dp/B08GCFWBHM/ref=sr_1_4?"
     },
     {
         "id": 82,
         "name": "kitchenaid 5 quart mixer",
         "price": 44999,
-        "image": "https://m.media-amazon.com/images/I/71DAYttsoPL._AC_SX679_.jpg",
+        "image": "/images/b24.png",
         "url":"https://www.amazon.com/KitchenAid-KSM150PSAQ-Artisan-Pouring-Shield/dp/B005PMEHBG/ref=asc_df_B005PMEHBG/?"
     },
     {
         "id": 83,
         "name": "ninja food chopper",
         "price": 3400,
-        "image": "https://m.media-amazon.com/images/I/61daTxkT+jL._AC_SX679_.jpg",
+        "image": "/images/b25.png",
         "url":"https://www.amazon.com/Ninja-200-Watt-16-Ounce-Chopping-NJ110GR/dp/B00HL3TBDQ/ref=asc_df_B00HL3TBDQ/?"
     },
     {
@@ -196,7 +196,7 @@
         "id": 85,
         "name": "smagreho massage chair",
         "price": 79999,
-        "image": "https://m.media-amazon.com/images/I/71xhxj52CFL._AC_SX679_.jpg",
+        "image": "/images/b26.png",
         "url":"https://www.amazon.com/Massage-Recliner-Pressure-Bluetooth-Included/dp/B07VF4MNWR/ref=sr_1_1_sspa?"
     }
     
