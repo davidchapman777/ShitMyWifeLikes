@@ -46,7 +46,7 @@ margin-bottom: 5vh;
     margin: auto;
     left: 0;
     right: 0;
-    top: 5vh;
+    top: 3vh;
     width: 34vh;
 }
 @media only screen and (min-width: 768px) {

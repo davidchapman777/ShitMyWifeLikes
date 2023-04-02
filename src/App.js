@@ -23,6 +23,8 @@ function App() {
 }
 export default App;
 const Wrapper = styled.div`
+ 
 
+    
 
 `

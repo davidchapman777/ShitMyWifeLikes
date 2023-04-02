@@ -74,7 +74,6 @@ margin-bottom: 3vh;
   
 }
 .product:hover{
-  transform: scale(1.1);
   a{
     span{
       border: .1vw solid white;
@@ -87,7 +86,11 @@ margin-bottom: 3vh;
 .product:hover + .bcg{
   transform: scale(1.1);
 }
-
+@media only screen and (min-width: 768px) {
+  .product:hover{
+  transform: scale(1.1);
+}
+}
 
 `
 

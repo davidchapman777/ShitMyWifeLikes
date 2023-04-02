@@ -71,7 +71,6 @@ margin: auto;
 }
 
 a:hover > span{
-  transform: scale(1.1);
   background: black;
   color: white;
   border: 0.1vw solid white;
