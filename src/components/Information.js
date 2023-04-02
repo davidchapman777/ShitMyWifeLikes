@@ -11,7 +11,7 @@ const Information = () => {
                 <br/>
                 ***Disclaimer***
                 <br />
-                This is a mock website
+                Prices may vary
                 </div>
         </Wrapper>
   )

@@ -8,12 +8,14 @@ import FeaturedDecorProducts from "./FeaturedDecorProducts";
 import FeaturedElectronics from "./FeaturedElectronics";
 import FeaturedFashionProducts from "./FeaturedFashionProducts";
 import Information from "./Information";
+import Message from "./Message";
 import Navbar from "./Navbar";
 import SortBeauty from "./SortBeauty";
 import SortDecor from "./SortDecor";
 import SortElectronics from "./SortElectronics";
 import SortFashion from "./SortFashion";
 export {
+    Message,
     Information,
     SortFashion,
     SortElectronics,

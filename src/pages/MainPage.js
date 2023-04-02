@@ -3,6 +3,7 @@ import Pic from '../images/background.jpeg'
 import FeaturedItems from "../components/FeaturedItems"
 import { Information } from "../components"
 
+
 const MainPage = () => {
     return (
         <Wrapper>

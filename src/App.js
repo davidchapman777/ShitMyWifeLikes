@@ -2,6 +2,7 @@ import { MainPage, Beauty, Home, Electronics, Luxury, Error } from "./pages";
 import { Navbar,SideBar } from "./components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styled from "styled-components";
+import {Message} from './components'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Route path="*" element={ <Error/>} />
         </Routes>
       </BrowserRouter>
-
+    <Message/>
     </Wrapper>
   );
 }
