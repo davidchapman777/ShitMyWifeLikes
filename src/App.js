@@ -2,7 +2,7 @@ import { MainPage, Beauty, Home, Electronics, Luxury, Error } from "./pages";
 import { Navbar,SideBar } from "./components";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styled from "styled-components";
-import { Message } from './components'
+// import { Message } from './components'
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         </Routes>
         </ScrollToTop>
       </BrowserRouter>
-    <Message/>
+    {/* <Message/> */}
     </Wrapper>
   );
 }

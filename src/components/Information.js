@@ -54,6 +54,16 @@ margin-bottom: 5vh;
     width: 100%;
 }
 }
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+    .title{
+   top: 5vh;
+   max-width: 60vh;
+}
+.p{
+   top: 12vh;
+   line-height: 5vh;
+}
+}
 @media only screen and (min-width: 992px) {
     .p{
         max-width: 140vh;

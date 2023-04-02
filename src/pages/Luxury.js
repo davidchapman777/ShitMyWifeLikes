@@ -44,7 +44,11 @@ overscroll-behavior-x: none;
     justify-items: center;
     justify-content: space-around;
 }
-
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+    .products-container{
+        grid-template-columns:1% 1% 1%;
+    }
+}
 
 @media only screen and (min-width: 992px) {
     .products-container{

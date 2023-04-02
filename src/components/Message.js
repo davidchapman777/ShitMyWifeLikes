@@ -13,7 +13,7 @@ export default Message
 
 const Wrapper = styled.div`
 display: none;
-@media screen and (orientation: landscape) {
+@media screen and (max-width:900px) and (orientation:landscape){
     display: block;
     z-index: 3;
     background: #00eeff;

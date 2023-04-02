@@ -91,7 +91,16 @@ left: 0vh;
 .filters:hover{
 left: 0vh;
 }
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+    top: 27vh;
+    .filters{
+        width: 60vh;
+        height: 55vh;
+        line-height: 8vh;
+        left: -60vh;
 
+    }
+}
 
 
 

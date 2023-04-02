@@ -113,7 +113,38 @@ background: #00e1ff;
   }
 
 }
-
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  height: 26vh;
+  .links{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 80%;
+    left: 18%;
+  }
+  .active{
+  width: 26vh;
+  left: 0%;
+  height: 5vh;
+  top: .9vh;
+  padding: 1vh;
+}
+.inactive{
+  width: 26vh;
+  left: 0%;
+  height: 5vh;
+  top: .9vh;
+  padding: 1vh;
+}
+.title{
+  width: 30vh;
+  height: 21vh;
+  top: 1vh;
+  left: 1vh;
+  font-size: 6vh;
+  padding:.5vh;
+  line-height: 7vh;
+}
+}
 @media only screen and (min-width: 992px) {
   .links{
     display: flex;

@@ -89,7 +89,36 @@ margin-bottom: 3vh;
   transform: scale(1.1);
 }
 }
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  width: 50vh;
+  height: 50vh;
+  top: 6vh;
+  .product{
 
+    .name{
+      line-height: 5vh;
+      padding: 1vh;
+    }
+    img{
+      bottom: 11vh;    
+      max-height: 17vh;
+      min-height: 17vh;
+    }
+    a{
+      border: .3vh solid black;
+      span{
+        font-size: 3vh;
+        border: .3vh solid black;
+        padding-top: 1vh;
+        width: 30vh;
+        height: 4vh;
+      }
+    }
+  }
+  .product:hover{
+  transform: none;
+}
+  }
 
 
 

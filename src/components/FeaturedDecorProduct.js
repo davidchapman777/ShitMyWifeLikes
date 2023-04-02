@@ -87,6 +87,28 @@ a:hover > span{
     }
   }
 }
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+width: 50vh;
+height: 50vh;
+.f-container{
+
+  .name{
+    margin-top: 1vh;
+    line-height: 5vh;
+  }
+  img{
+    max-height: 18vh;
+    bottom: 12vh;
+  }
+  a{
+    border: 0.3vh solid black;
+    span{
+      height: 5vh;
+      padding-top: 2vh;
+    }
+  }
+}
+}
 `
 
 

@@ -40,6 +40,20 @@ top: 5vh;
 .ff-container{
   display: block;
 }
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+  padding-bottom: 20vh;
+  .ff-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: auto;
+    top: 8vh;
+  }
+  .f{
+    top: 7vh;
+    max-width: 60vh;
+  }
+}
 @media only screen and (min-width: 992px) {
   max-width: 140vh;
   .ff-container{
